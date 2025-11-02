@@ -7,6 +7,7 @@ The **Professor Matcher Agent** is an AI-powered system that evaluates a candida
 3. AI-based semantic similarity scoring using an LLM
 
 This project is designed to help students and researchers identify relevant academic advisors based on alignment of research interests.
+[Gemini Interaction Log] (https://gemini.google.com/share/146ac38b45a0)
 
 ---
 
