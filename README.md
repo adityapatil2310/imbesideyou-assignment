@@ -39,7 +39,7 @@ PDF Extractor → Full Text Resume
          ↓
 Web Scraper → List of Professors (name, profile URL, research interests)
          ↓
-LLM computes Match Score for each professor
+LLM computes the Match Score for each professor
          ↓
 Ranked Output → Top N Matches Displayed to User
 ```
@@ -90,12 +90,13 @@ Extracted into a **single raw text string** using `pdfplumber`. No structured pa
 | **pdfplumber** | Better text extraction quality than PyPDF2, supports layout reading |
 | **Selenium** | Required for JS-rendered faculty pages; headless automation |
 | **OpenAI Chat Completion API** | Reliable LLM reasoning, supports JSON mode response |
-| **ChromeDriverManager** | Auto-installs correct ChromeDriver version, avoids OS config issues |
+| **ChromeDriverManager** | Auto-installs the correct ChromeDriver version, avoids OS config issues |
 | **JSON-based scoring** | Enforces deterministic LLM outputs for downstream formatting |
 
 ---
 
 ## 6. Running the Agent
+Install and place ChromeDriver in the same directory if it doesn't get installed
 ```bash
 export OPENAI_API_KEY="your_key_here"
 python main.py
